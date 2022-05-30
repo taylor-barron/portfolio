@@ -1,0 +1,62 @@
+
+.home-navbar {
+    z-index: 2;    
+}
+.home-navbar-icon {
+    height: 30px;
+    border-radius: 1;
+    margin-right: 15px;
+}
+
+.home-main-container {
+    position: absolute;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    overflow: hidden;
+    height: 100vh;
+    width: 100vw;
+    z-index: 0;
+}
+
+.home-hero {
+    height: 100vh;
+    z-index: -1;
+}
+
+.home-text-container {
+    z-index: 2;
+    position: absolute;
+    top: 20vh;
+    right: 15vw;
+}
+.home-text {
+    text-align: right;
+    color: #fff;
+    font-size: 20px;
+}
+
+.home-footer-container {
+    z-index: 2;
+    position: absolute;
+    bottom: 1vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.home-footer-text {
+    align-self: center;
+    color: #fff;
+    font-size: 20px;
+    text-decoration: none;
+}
+.home-footer-icon {
+    z-index: 5;
+    height: 40px;
+    color: #fff;
+    align-self: center;
+}

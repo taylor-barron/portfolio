@@ -1,0 +1,21 @@
+{
+    "projects": [
+        {
+            "name": "Quick List",
+            "image": "quicklist.png",
+            "description": "Fullstack React and NodeJS app that utilizes Auth0 for a user login experience, Heroku to host the backend server, and MongoDB to store user data.",
+            "tech": ["React", "Javascript", "NodeJS", "MongoDB", "Auth0"],
+            "demo": "https://grocery-app-eosin.vercel.app/",
+            "github": "https://github.com/taylor-barron/grocery-app",
+            "note": "need to fix readme location and make backend code available"
+        },
+        {
+            "name": "Amusement Park Site",
+            "image": "jacks.jpeg",
+            "description": "Large vanilla HTML CSS JS website advertising indoor amusement park. Everything is custom built.",
+            "tech": ["HTML", "CSS", "Javascript"],
+            "demo": "https://mjacksrepo.github.io/jacks-redesign/index.html",
+            "github": "https://github.com/mJacksRepo/jacks-redesign"
+        }
+    ]
+}

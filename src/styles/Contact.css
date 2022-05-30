@@ -1,0 +1,62 @@
+
+.contact-navbar {
+    z-index: 2;    
+}
+.contact-navbar-icon {
+    height: 30px;
+    border-radius: 1;
+    margin-right: 15px;
+}
+
+.contact-main-container {
+    position: absolute;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    overflow: hidden;
+    height: 100vh;
+    width: 100vw;
+    z-index: 0;
+}
+
+.contact-hero {
+    height: 100vh;
+    z-index: -1;
+}
+
+.contact-text-container {
+    z-index: 2;
+    position: absolute;
+    top: 20vh;
+    right: 15vw;
+}
+.contact-text {
+    text-align: right;
+    color: #fff;
+    font-size: 20px;
+}
+
+.contact-footer-container {
+    z-index: 2;
+    position: absolute;
+    bottom: 1vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.contact-footer-text {
+    align-self: center;
+    color: #fff;
+    font-size: 20px;
+    text-decoration: none;
+}
+.contact-footer-icon {
+    z-index: 5;
+    height: 40px;
+    color: #fff;
+    align-self: center;
+}
