@@ -1,9 +1,9 @@
 import Button from 'react-bootstrap/Button'
 import { useState, useEffect } from "react";
 import { FaReact, FaNodeJs } from "react-icons/fa"
-import { SiJavascript, SiMongodb, SiAuth0 } from "react-icons/si"
+import { SiJavascript, SiMongodb, SiAuth0, SiBootstrap, SiPhp, SiMysql } from "react-icons/si"
 import { AiFillHtml5 } from "react-icons/ai"
-import { DiCss3 } from "react-icons/di"
+import { DiCss3, DiJava, DiPython } from "react-icons/di"
 
 const Project = ({ project }) => {
     const [showLive, setShowLive] = useState(false)
@@ -30,6 +30,16 @@ const Project = ({ project }) => {
             projectIcons.push(<SiMongodb key={i} className='projects-icons' />)
         } else if (project.tech[i] === "Auth0") {
             projectIcons.push(<SiAuth0 key={i} className='projects-icons' />)
+        } else if (project.tech[i] === "Bootstrap") {
+            projectIcons.push(<SiBootstrap key={i} className='projects-icons' />)
+        } else if (project.tech[i] === "Java") {
+            projectIcons.push(<DiJava key={i} className='projects-icons' />)
+        } else if (project.tech[i] === "Python") {
+            projectIcons.push(<DiPython key={i} className='projects-icons' />)
+        } else if (project.tech[i] === "Php") {
+            projectIcons.push(<SiPhp key={i} className='projects-icons' />)
+        } else if (project.tech[i] === "MySQL") {
+            projectIcons.push(<SiMysql key={i} className='projects-icons' />)
         }
     }
 

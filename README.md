@@ -1,1 +1,1 @@
-Portfolio website to introduce myself and highlight some of my work
+Portfolio website to introduce myself and highlight some of my work. Front end React application. Utilizes mountain imagery heavily.

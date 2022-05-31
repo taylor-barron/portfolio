@@ -16,6 +16,62 @@
             "tech": ["HTML", "CSS", "Javascript"],
             "demo": "https://mjacksrepo.github.io/jacks-redesign/index.html",
             "github": "https://github.com/mJacksRepo/jacks-redesign"
+        },
+        {
+            "name": "Voting Queue",
+            "image": "votingQueue.png",
+            "description": "Data is processed as voters from an input document to an output document. Uses OOP, general data types, data structure.",
+            "tech": ["Java"],
+            "demo": "",
+            "github": "https://github.com/taylor-barron/voting-queue"
+        },
+        {
+            "name": "Quotes Web Application",
+            "image": "quote-web-application.png",
+            "description": "Full stack Php web application with login and CRUD operations on quotes. Live demo coming soon.",
+            "tech": ["Php", "MySQL"],
+            "demo": "",
+            "github": "https://github.com/taylor-barron/quote-web-application"
+        },
+        {
+            "name": "Stocks Desktop App",
+            "image": "stocks-portfolio.png",
+            "description": "Uses wxPython, a local db, and an API to compare current stock holdings against current prices as a desktop app",
+            "tech": ["Python", "MySQL"],
+            "demo": "",
+            "github": "https://github.com/taylor-barron/stocks-application"
+        },
+        {
+            "name": "Employee Info Web App",
+            "image": "employee-info-web-app.png",
+            "description": "Uses Bottle framework to perform CRUD operations on local db allowing hours to be edited and pay to be calculated",
+            "tech": ["Python", "MySQL"],
+            "demo": "",
+            "github": "https://github.com/taylor-barron/employee-info-web-app"
+        },
+        {
+            "name": "Volunteers Desktop App",
+            "image": "volunteers.png",
+            "description": "Desktop app built using Java and JavaFx that allows CRUD operations on linked list. Uses OOP and generics.",
+            "tech": ["Java"],
+            "demo": "",
+            "github": "https://github.com/taylor-barron/volunteers"
+        },
+        {
+            "name": "Website Sessions",
+            "image": "php-sessions.png",
+            "description": "Php web app that uses sessions to store cookie data in browser. Live demo coming soon",
+            "tech": ["Php"],
+            "demo": "",
+            "github": "https://github.com/taylor-barron/php-sessions"
+        },
+        {
+            "name": "This Site",
+            "image": "portfolio.png",
+            "description": "This site was built with React and a local db of projects info.",
+            "tech": ["React", "Javascript", "CSS", "Bootstrap"],
+            "demo": "http://taylor-barron.com",
+            "github": "https://github.com/taylor-barron/portfolio"
         }
     ]
 }

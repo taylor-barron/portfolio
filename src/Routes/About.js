@@ -15,7 +15,7 @@ const About = () => {
                         &emsp;Thank you for visiting my site! My passion is to write well-structured, robust code that translates into products that perform well and look great. Since I started wading into the world of programming in 2020 I have thoroughly enjoyed getting into the why's and the how's of how technology works.
                     </p><br></br>
                     <p className='about-text'>
-                        &emsp;I graduated from BCTCS in Lexington, Kentucky in May 2022. During my time there I was an embedded tutor for Java students and a free tutor for Python students. I recieved an A letter grade in every programming class that I took. 
+                        &emsp;I graduated from BCTCS with distinction in Lexington, Kentucky in May 2022. During my time there I was an embedded tutor for Java students and a free tutor for Python students. I recieved an A letter grade in every programming class that I took. 
                     </p><br></br>
                     <p className='about-text'>
                         &emsp;I have worked as a web developer since August 2021 focused mainly on creating an HTML CSS Javascript site with a focus on SEO.
