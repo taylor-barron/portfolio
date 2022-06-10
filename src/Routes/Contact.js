@@ -1,7 +1,7 @@
 import mountains from '../assets/sunrise-mountains.jpg';
 import NavigationBar from '../components/NavigationBar';
 import Footer from '../components/Footer';
-import myResume from '../assets/taylor-barron.pdf'
+import myResume from '../assets/taylor-barron-frontend-react.pdf'
 
 const Contact = () => {
 

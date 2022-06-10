@@ -12,13 +12,13 @@ const Home = () => {
 
         setTimeout(() => {
             setText1("Hi, I'm Taylor,")
-        }, 2000)
+        }, 3000)
         setTimeout(() => {
             setText2("full-stack React developer.")
-        }, 3500)
+        }, 5000)
         setTimeout(() => {
             setText3("Let's make picturesque websites.")
-        }, 5500)
+        }, 6500)
     }, [])
 
     return (

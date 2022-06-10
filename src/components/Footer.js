@@ -9,7 +9,7 @@ const Footer = ({divCss, footerCss, text, linkDest}) => {
         setTimeout(() => {
             setShowIcon(true)
             setFooterText(text)
-        }, 7500)
+        }, 8000)
     }, [])
 
     return (
